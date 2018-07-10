@@ -32,7 +32,6 @@
 ; O(logn) steps, O(1) space)
 ; hint: a * b^n is unchanged from state to state
 ; hint: b^n = (b^n/2)^2 = (b^2)^n/2
-
 (define (fast-expt-tail b n)
   (fast-expt-iter b n 1))
 
